@@ -1,0 +1,90 @@
+/* font */
+@font-face {
+    font-family: 'yekan';
+    src: url('../fonts/Yekan.ttf');
+}
+
+body{
+    font-size: 18px;
+    font-family: 'yekan';
+}
+/* color */
+.orange{
+    background-color: rgb(238, 174, 79);
+}
+.blue{
+    background-color: rgb(73, 148, 233);
+}
+.violet{
+    background-color: rgb(180, 47, 233);
+}
+.green{
+    background-color: rgb(104,226, 104);
+}
+.red{
+    background-color: rgb(241, 65, 65);
+}
+/* box shadow */
+.boxshadow-1{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.boxshadow-2{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+/* padding */
+.pad{
+    padding: 35px 15px;
+}
+.brad7{
+    border-radius: 7px;
+}
+.pad-b{
+    padding-bottom: 12px;
+}
+.padr{
+    padding-right: 10px;
+}
+.pad2{
+    padding: 15px  10px 17px 10px;
+}.padt{
+    padding-top: 50px;
+}
+.padt10{
+    padding-top: 10px;
+}
+.padbut{
+    padding-bottom: 50px;
+}
+/* list */
+.menu{
+    height: 100px;
+    padding-top: 20px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    padding: 15px;
+}
+.color:hover{
+    color: orange;
+}
+
+.image{
+    color: #fff;
+    height: 400px;
+    background-color: rgb(230, 175, 74);
+    background-image: url(../images/page-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-blend-mode: multiply;
+   text-align: center;
+}
+.image i{
+    font-size: 200px;
+}
+.footer{
+    background-color: gray;
+}
